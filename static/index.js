@@ -333,11 +333,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 30) return '拜托你逊爆了欸';
-    if (score <= 60) return '勉勉强强';
-    if (score <= 100) return '得到老八真传了？';
-    if (score <= 150) return '老八附体';
-    return '你就是老八本人？';
+    if (score <= 50) return '几天不见，这么拉了';
+    if (score <= 100) return '几天不见，这么摇摆';
+    if (score <= 250) return '几天不见，这么鬼鬼';
+    if (score <= 500) return '鬼鬼鬼鬼鬼！';
+    return '你就是摇摆羊本人？';
 }
 
 
